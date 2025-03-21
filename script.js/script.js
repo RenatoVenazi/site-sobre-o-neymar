@@ -1,2 +1,12 @@
 document.addEventListener('DOMContentLoaded', function(){
-const aumentaFonteBotao = document.getElementById ('aumentar-fonte')
+const aumentaFonteBotao = document.getElementById ('aumentar-fonte');
+
+ let tamanhoatualfonte = 1;
+
+aumentaFonteBotao.addEventListener('click', function(){
+tamanhoatualfonte += 0.1; 
+document.body.style.fontSize = '${tamanhoatualdafonte}rem'
+
+}
+
+})
